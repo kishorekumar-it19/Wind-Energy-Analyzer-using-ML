@@ -1,0 +1,270 @@
+/* Navbar */
+.nav-link {
+  font-size: 17px;
+  color: #0c0c0ccc !important;
+}
+.navbar-brand {
+  font-size: 22px;
+}
+
+/* home */
+.home {
+  height: auto;
+  background: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home .h1 {
+  font-size: 60px;
+}
+.home .hero-line {
+  font-size: 30px;
+}
+.home .bg-button {
+  background-color: #2073d4 !important;
+  font-size: 20px;
+  padding-top: 10px !important;
+  padding-bottom: 13px !important;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-color: aqua;
+  border-width: 2px;
+}
+
+/* Large screens such as TV */
+@media only screen and (min-width: 1824px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+/* IPad Pro */
+@media (max-width: 1024px) {
+}
+
+/*  Large devices (desktops, 992px and up) */
+
+@media (max-width: 992px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media only screen and (max-width: 768px) {
+  .home .h1 {
+    font-size: 50px;
+  }
+  .home .hero-line {
+    font-size: 20px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media only screen and (max-width: 576px) {
+  .home .h1 {
+    font-size: 50px;
+  }
+  .home .hero-line {
+    font-size: 20px;
+  }
+  .home .home-padding {
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+  }
+}
+
+/* iPhoneX, iPhone 6,7,8 */
+@media only screen and (max-width: 375px) {
+  .home .h1 {
+    font-size: 40px;
+  }
+  .home .hero-line {
+    font-size: 20px;
+  }
+  .home .home-padding {
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+  }
+}
+
+/* Galaxy S5, Moto G4 */
+@media only screen and (max-width: 360px) {
+}
+
+/* iPhone 5 or before */
+@media only screen and (max-width: 320px) {
+}
+
+/* here to do */
+.do {
+  background-color: #1c2d41;
+  color: #8392a5;
+}
+.do .these-things {
+  font-size: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+/* Large screens such as TV */
+@media only screen and (min-width: 1824px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+  .do .these-things {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+/* IPad Pro */
+@media (max-width: 1024px) {
+  .do .these-things {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+
+@media (max-width: 992px) {
+  .do .these-things {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media only screen and (max-width: 768px) {
+  .do .these-things {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media only screen and (max-width: 576px) {
+  .do .these-things {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+/* iPhoneX, iPhone 6,7,8 */
+@media only screen and (max-width: 375px) {
+  .do .these-things {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+/* Galaxy S5, Moto G4 */
+@media only screen and (max-width: 360px) {
+}
+
+/* iPhone 5 or before */
+@media only screen and (max-width: 320px) {
+}
+
+/* these-things */
+.these-things .h2 {
+  font-size: 45px;
+  font-weight: bolder;
+}
+.these-things .details {
+  font-size: 20px;
+}
+.these-things .bg-button {
+  background-color: rgba(216, 63, 109, 0.966);
+}
+.these-things .bg-button:hover {
+  background-color: rgba(226, 78, 122, 0.966);
+}
+
+/* Large screens such as TV */
+@media only screen and (min-width: 1824px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+/* IPad Pro */
+@media (max-width: 1024px) {
+}
+
+/*  Large devices (desktops, 992px and up) */
+
+@media (max-width: 992px) {
+  .these-things .details {
+    font-size: 17px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media only screen and (max-width: 768px) {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media only screen and (max-width: 576px) {
+}
+
+/* iPhoneX, iPhone 6,7,8 */
+@media only screen and (max-width: 375px) {
+}
+
+/* Galaxy S5, Moto G4 */
+@media only screen and (max-width: 360px) {
+}
+
+/* iPhone 5 or before */
+@media only screen and (max-width: 320px) {
+}
+
+/* news */
+.news a {
+  color: #1c2d41;
+  text-decoration: none;
+}
+.news-home {
+  background-color: #1c2d41;
+}
+.news .card-img-top {
+  height: 200px;
+}
+
+/* footer */
+footer {
+  background-color: #1c2d41;
+  color: #8392a5;
+  border-top-width: 1px !important;
+  border-color: #8392a5;
+}
+footer * {
+  color: #8392a5;
+}
+.footer-logo {
+  transition: transform 0.2s;
+}
+.footer-logo:hover {
+  transform: scale(1.06);
+}

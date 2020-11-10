@@ -1,0 +1,48 @@
+<!-- Footer -->
+<footer class="py-3">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4 text-center">
+                <ul class="list-unstyled py-3">
+                    {{ range site.Params.dropdown }}
+                    <li>
+                        <a class="text-uppercase font-weight-bold m-2" href="{{ .link }}">{{ .name }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <ul class="list-unstyled py-3">
+                    {{ range site.Params.customMenus }}
+                    <li>
+                        <a class="text-uppercase font-weight-bold m-2" href="{{.Url}}"
+                            aria-label="{{ .name }}">{{ .name }}</a>
+                    </li>
+                    {{ end }}
+                    {{ range site.Params.customMenusleft }}
+                    <li>
+                        <a class="text-uppercase font-weight-bold m-2" href="{{.Url}}"
+                            aria-label="{{ .name }}">{{ .name }}</a>
+                    </li>
+                    {{ end }}
+
+                </ul>
+            </div>
+
+            <div class="col-md-4 text-center py-3">
+                <div class="footer-logo">
+                    <a href="/">
+                        <img class="img-fluid bg-light rounded" width="200px" height="60px"
+                            src="{{ .Site.Params.favicon }}" alt="logo" />
+                    </a>
+                </div>
+                <div class="py-3">
+                    &copy {{ .Site.Params.copyright }}
+                    <div>All rights reserved</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>

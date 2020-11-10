@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ .Site.Title }}</title>
+    <link rel="icon" href="{{ .Site.Params.favicon }}" type="image/gif" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="all" />
+    <link rel="stylesheet" href="assets/css/index.css" media="all" />
+</head>
+
+<body>
+    {{- partial "navbar.html" . -}}
+
+    {{- partial "section/home.html" . -}}
+    {{- partial "section/things.html" . -}}
+    {{- partial "section/these-things.html" . -}}
+    {{- partial "section/news.html" . -}}
+
+    {{- partial "footer.html" . -}}
+
+
+    <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>

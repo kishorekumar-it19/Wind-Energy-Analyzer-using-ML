@@ -1,0 +1,61 @@
+baseURL: "https://clever-lamport-761a67.netlify.app"
+languageCode: "en-us"
+title: "Wings to fly"
+
+Paginate: 3
+
+params:
+  favicon: "/assets/images/Wings.svg"
+  copyright: "2020"
+
+  # Navbar Menus
+  customMenusleft:
+    - name: "About"
+      Url: "/about"
+    - name: "Contact us"
+      Url: "/contact"
+    - name: "News"
+      Url: "/news"
+  customMenus:
+    - name: "Healthcare"
+      Url: "#"
+    - name: "Employment"
+      Url: "#"
+  dropdownname: "Learn"
+  dropdown:
+    - name: "HTML and CSS"
+      link: "#"
+    - name: "Javascript"
+      link: "#"
+    - name: "Python"
+      link: "#"
+    - name: "Data science"
+      link: "#"
+
+  #home
+  home:
+    bigline: "Wings to fly"
+    Tagline: "Stay healthy ,Keep learning, Get a job"
+    button: "Way to go"
+    buttonlink: "#these-things"
+
+  #Here we do
+  description:
+    heading: "We are here to do these things"
+    des: "provide you the best resources to boost up your skills. Healthcare advises to survive in this pandemic situation. Provide the list of all job search website."
+
+  #these-things
+  learn:
+    heading: "Boost up your skills"
+    des: "We are provide the courses details to Learn. We also provide some Youtube videos to learn."
+    img: "/assets/images/learn/techfest learn.svg"
+  healthcare:
+    heading: "Take an advice"
+    des: "We are give an advice to survive in this pandemic situation."
+    img: "/assets/images/healthcare/techfest healthcare.svg"
+    link: "#"
+  employment:
+    heading: "Get a job"
+    des: "We are provide the list of all websites and its details to search and apply for a job."
+    img: "/assets/images/employment/techfest employment.svg"
+    link: "#"

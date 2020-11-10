@@ -1,0 +1,18 @@
+<!-- Home -->
+<div class="home">
+    <div class="container py-5">
+        <div class="home-padding p-5">
+            <div class="h1 font-weight-bold">{{ .Site.Params.home.bigline }}</div>
+            <div class="hero-line text-light font-weight-bold">
+                {{ .Site.Params.home.tagline }}
+            </div>
+
+            <div class="py-3">
+                <a type="button" href="{{ .Site.Params.home.buttonlink }}"
+                    class="btn bg-button text-light rounded-pill font-weight-bold">
+                    {{ .Site.Params.home.button }}
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
