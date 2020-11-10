@@ -59,3 +59,9 @@ params:
     des: "We are provide the list of all websites and its details to search and apply for a job."
     img: "/assets/images/employment/techfest employment.svg"
     link: "#"
+
+  #Social
+  social:
+    facebook: "https://facebook.com"
+    twitter: "https://twitter.com"
+    instagram: "https://instagram.com"

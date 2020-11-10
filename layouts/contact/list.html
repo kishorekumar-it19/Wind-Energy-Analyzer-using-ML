@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="contact container">
+    <div class="h1 py-2 font-weight-bold text-center">{{ .Title}}</div>
+    <div class="row justify-content-center pb-2">
+
+        <div class="col-md-5 pb-3">
+            <div class="p-3 content">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="your name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="example@gmail.com"
+                            name="Gmail">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3" name="message"
+                            placeholder="Type something"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="col-md-5 d-md-block d-none my-auto">
+            <img class="img-fluid" src="{{ .Params.contactimg }}" alt="techfest contact">
+        </div>
+    </div>
+    <div class="py-3">
+        {{ .Content }}
+    </div>
+</div>
+{{ end }}

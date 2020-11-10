@@ -252,6 +252,11 @@
   height: 200px;
 }
 
+/*about*/
+.about .content {
+  font-size: 20px;
+}
+
 /* footer */
 footer {
   background-color: #1c2d41;
