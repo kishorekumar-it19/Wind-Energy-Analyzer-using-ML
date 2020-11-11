@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="healthcare container py-3">
+    <div class="h1 text-center font-weight-bold">Healthcare</div>
+
+    <div class="row">
+        {{ range .Paginator.Pages }}
+        <div class="col-md-4 my-3">
+            <div class="card overflow-hidden">
+                <a href="{{ .RelPermalink }}">
+                    <img class="card-img-top" src="{{ .Params.img }}" alt="healthcare post cap">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">{{ .Title }}</h5>
+                    <p class="card-text">{{ .Summary | truncate 120}}</p>
+                </div>
+                <div class="card-body bg-light text-center">
+                    <a href="{{ .RelPermalink }}" class="btn btn-outline-primary">read</a>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    <div class="row justify-content-center py-3">
+        {{ template "_internal/pagination.html" . }}
+    </div>
+</div>
+{{ end }}
