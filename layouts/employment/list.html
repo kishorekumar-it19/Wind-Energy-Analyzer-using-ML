@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="employment container py-3">
+    <div class="h1 font-weight-bold text-center">{{ .Title}}</div>
+    <div class="h4 text-center">{{ .Params.des }}</div>
+    <div class="row justify-content-center py-2">
+        <div class="card-deck">
+            <div class="card-columns">
+                {{ range .Params.content }}
+                <div class="card border-primary mb-3">
+                    <div class="card-header h4">{{ .name }}</div>
+                    <div class="card-body text-primary">
+                        <p class="card-text">
+                            {{ .des }}
+                        </p>
+                    </div>
+                    <div class="card-footer bg-light text-center">
+                        <a href="{{ .link }}" target="_blank" class="btn btn-outline-primary">signup</a>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+
+    </div>
+
+</div>
+{{ end }}

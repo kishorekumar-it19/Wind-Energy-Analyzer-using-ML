@@ -271,6 +271,16 @@
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
 
+/* employment */
+.employment .row .display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.employment .row .display-flex > [class*="col-"] {
+  display: flex;
+  flex-direction: column;
+}
+
 /* footer */
 footer {
   background-color: #1c2d41;

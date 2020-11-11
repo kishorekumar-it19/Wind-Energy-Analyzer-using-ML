@@ -20,7 +20,7 @@ params:
     - name: "Healthcare"
       Url: "/healthcare"
     - name: "Employment"
-      Url: "#"
+      Url: "/employment"
   dropdownname: "Learn"
   dropdown:
     - name: "HTML and CSS"
@@ -53,12 +53,12 @@ params:
     heading: "Take an advice"
     des: "We are give an advice to survive in this pandemic situation."
     img: "/assets/images/healthcare/techfest healthcare.svg"
-    link: "#"
+    link: "/healthcare"
   employment:
     heading: "Get a job"
     des: "We are provide the list of all websites and its details to search and apply for a job."
     img: "/assets/images/employment/techfest employment.svg"
-    link: "#"
+    link: "/employment"
 
   #Social
   social:
