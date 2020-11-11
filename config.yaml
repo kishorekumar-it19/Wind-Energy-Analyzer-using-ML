@@ -23,14 +23,14 @@ params:
       Url: "/employment"
   dropdownname: "Learn"
   dropdown:
-    - name: "HTML and CSS"
-      link: "#"
+    - name: "Web development"
+      link: "/webdevelopment"
     - name: "Javascript"
-      link: "#"
+      link: "/javascript"
     - name: "Python"
-      link: "#"
+      link: "/python"
     - name: "Data science"
-      link: "#"
+      link: "/datascience"
 
   #home
   home:

@@ -1,7 +1,7 @@
 ---
 title: "Employment"
 date: 2020-11-11T12:10:49+05:30
-draft: true
+draft: false
 des: "Get a job"
 content:
   - name: "Linkedin"
