@@ -11,7 +11,8 @@ We are here to make you the perfect. Here is our aims.
 - Motivate you to learn by providing the sources
 - Find a job for you
 
+
 We are create and manage this website. Contact us for quires.
 
-- gurusarishkumar.it19@bitsathy.ac.in
-- kishorekumar.it19@bitsathy.ac.in
+- [Gurusabarish kumar](mailto:gurusarishkumar.it19@bitsathy.ac.in)
+- [Kishore kumar](mailto:kishorekumar.it19@bitsathy.ac.in)

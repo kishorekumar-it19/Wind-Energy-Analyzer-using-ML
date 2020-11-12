@@ -4,6 +4,13 @@ title: "Wings to fly"
 
 Paginate: 3
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+    endLevel: 9
 params:
   favicon: "/assets/images/Wings.svg"
   copyright: "2020"
