@@ -1,0 +1,203 @@
+/* Navbar */
+.nav-link {
+  font-size: 17px;
+  color: #0c0c0ccc !important;
+}
+.navbar-brand {
+  font-size: 22px;
+}
+
+/* home */
+.home {
+  height: auto;
+  background: url("../images/bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home .h1 {
+  font-size: 60px;
+}
+.home .hero-line {
+  font-size: 30px;
+}
+.home .bg-button {
+  background-color: #2073d4 !important;
+  font-size: 20px;
+  padding-top: 10px !important;
+  padding-bottom: 13px !important;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-color: aqua;
+  border-width: 2px;
+}
+@media only screen and (max-width: 768px) {
+  .home .h1 {
+    font-size: 50px;
+  }
+  .home .hero-line {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .home .h1 {
+    font-size: 50px;
+  }
+  .home .hero-line {
+    font-size: 20px;
+  }
+  .home .home-padding {
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .home .h1 {
+    font-size: 40px;
+  }
+  .home .hero-line {
+    font-size: 20px;
+  }
+  .home .home-padding {
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+  }
+}
+
+/* here to do */
+.do {
+  background-color: #1c2d41;
+  color: #8392a5;
+}
+.do .these-things {
+  font-size: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+@media (max-width: 1200px) {
+  .do .these-things {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media (max-width: 1024px) {
+  .do .these-things {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media (max-width: 992px) {
+  .do .these-things {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .do .these-things {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .do .these-things {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .do .these-things {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+/* these-things */
+.these-things .h2 {
+  font-size: 45px;
+  font-weight: bolder;
+}
+.these-things .details {
+  font-size: 20px;
+}
+.these-things .bg-button {
+  background-color: rgba(216, 63, 109, 0.966);
+}
+.these-things .bg-button:hover {
+  background-color: rgba(226, 78, 122, 0.966);
+}
+@media (max-width: 992px) {
+  .these-things .details {
+    font-size: 17px;
+  }
+}
+
+/* news */
+.news a {
+  color: #1c2d41;
+  text-decoration: none;
+}
+.news-home {
+  background-color: #1c2d41;
+}
+.news .card-img-top {
+  height: 200px;
+}
+
+/*about*/
+.about .content {
+  font-size: 20px;
+}
+
+/*healthcare*/
+.healthcare .card-img-top {
+  transition: transform 0.2s;
+}
+.healthcare .card-img-top:hover {
+  transform: scale(1.06);
+}
+.healthcare .card {
+  transition: box-shadow 0.3s;
+}
+.healthcare .card:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+/* employment */
+.employment .row .display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.employment .row .display-flex > [class*="col-"] {
+  display: flex;
+  flex-direction: column;
+}
+
+/* learn */
+.learn .card {
+  transition: box-shadow 0.3s;
+}
+.learn .card:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+/* footer */
+footer {
+  background-color: #1c2d41;
+  color: #8392a5;
+  border-top-width: 1px !important;
+  border-color: #8392a5;
+}
+footer * {
+  color: #8392a5;
+}
+.footer-logo {
+  transition: transform 0.2s;
+}
+.footer-logo:hover {
+  transform: scale(1.06);
+}
+
+/* article */
+article p {
+  font-size: 18px;
+}
