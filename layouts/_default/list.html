@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="learn container">
-    <div class="h1 py-2 font-weight-bold text-center">Coursera courses</div>
+    <div class="h1 py-2 font-weight-bold text-center">{{ .Params.firsttopic }}</div>
     <div class="row row-cols-1 row-cols-md-3">
         {{ range .Params.course }}
         <div class="col mb-4">
@@ -8,31 +8,11 @@
                 <img src="{{ .img }}" class="card-img-top" alt="{{ .title }}">
                 <div class="card-body">
                     <h5 class="card-title">{{ .title }}</h5>
-                    <div>
-                        <span class="font-weight-bold">
-                            Time:
-                        </span>
-                        {{ .time }}
-                    </div>
-                    <div>
-                        <span class="font-weight-bold">
-                            Language:
-                        </span>
-                        {{ .language }}
-                    </div>
-                    <div>
-                        <span class="font-weight-bold">
-                            Schedule:
-                        </span>
-                        {{ .schedule }}
-                    </div>
                 </div>
                 <div class="card-footer">
-                    <img src="/assets/images/learn/level.svg" alt="level icon" width="20">
-                    <span class="px-1">{{ .level }}</span>
-
-                    <div class="float-right">
-                        <a href="{{ .link }}" target="_blank" class="btn btn-primary stretched-link">Learn</a>
+                    <div class="text-center">
+                        <a href="{{ .link }}" target="_blank"
+                            class="btn btn-primary stretched-link">Location</a>
                     </div>
                 </div>
             </div>

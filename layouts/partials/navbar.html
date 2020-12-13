@@ -26,19 +26,7 @@
                     <a class="nav-link" href="{{.Url}}" aria-label="{{ .name }}">{{ .name }}</a>
                 </li>
                 {{ end }}
-
-                <li class="nav-item mx-1 dropdown">
-                    <a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        {{ .Site.Params.dropdownname }}
-                    </a>
-                    <div class="dropdown-menu pt-0" aria-labelledby="navbarDropdown">
-                        {{ range site.Params.dropdown }}
-                        <div class="dropdown-divider m-0"></div>
-                        <a class="dropdown-item py-2" href="{{ .link }}">{{ .name }}</a>
-                        {{ end }}
-                    </div>
-                </li>
             </ul>
+        </div>
     </nav>
 </div>

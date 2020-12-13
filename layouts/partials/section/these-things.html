@@ -7,19 +7,9 @@
                 {{ .Site.Params.learn.des }}
             </div>
             <div class="py-3">
-                <div class="dropdown">
-                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                        {{ .Site.Params.dropdownname }}
-                    </button>
-                    <div class="dropdown-menu pt-0" aria-labelledby="navbarDropdown">
-                        {{ range site.Params.dropdown }}
-                        <div class="dropdown-divider m-0"></div>
-                        <a class="dropdown-item py-2" href="{{ .link }}">{{ .name }}</a>
-                        {{ end }}
-                    </div>
-                </div>
+                <a href="{{ .Site.Params.learn.link }}" type="button"
+                    class="btn btn-primary">{{ .Site.Params.learn.name }}</a>
             </div>
-
         </div>
         <div class="col-md-12 col-lg-6 my-auto">
             <img alt="techfest learn homepage's image" src="{{ .Site.Params.learn.img }}" class="img-fluid" />
@@ -39,7 +29,8 @@
                 {{ .Site.Params.healthcare.des }}
             </div>
             <div class="py-3">
-                <a href="{{ .Site.Params.healthcare.link }}" type="button" class="btn btn-primary"> Take care </a>
+                <a href="{{ .Site.Params.healthcare.link }}" type="button"
+                    class="btn btn-primary">{{ .Site.Params.healthcare.name }}</a>
             </div>
         </div>
     </div>
@@ -54,7 +45,8 @@
                 {{ .Site.Params.employment.des }}
             </div>
             <div class="py-3">
-                <a href="{{ .Site.Params.employment.link }}" type="button" class="btn btn-primary">Get a job</a>
+                <a href="{{ .Site.Params.employment.link }}" type="button"
+                    class="btn btn-primary">{{ .Site.Params.employment.name }}</a>
             </div>
         </div>
         <div class="col-md-12 col-lg-6 my-auto">

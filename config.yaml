@@ -1,6 +1,6 @@
 baseURL: "https://wingstofly.vercel.app"
 languageCode: "en-us"
-title: "Wings to fly"
+title: "MYSURU TOURISM "
 
 Paginate: 3
 
@@ -21,51 +21,50 @@ params:
       Url: "/about"
     - name: "Contact us"
       Url: "/contact"
-    - name: "News"
+    - name: "Updates"
       Url: "/news"
-  customMenus:
-    - name: "Healthcare"
+    - name: "COVID-19"
       Url: "/healthcare"
-    - name: "Employment"
+    - name: "Women Employment"
       Url: "/employment"
-  dropdownname: "Learn"
-  dropdown:
-    - name: "Web development"
-      link: "/webdevelopment"
-    - name: "Javascript"
-      link: "/javascript"
-    - name: "Python"
-      link: "/python"
-    - name: "Data science"
-      link: "/datascience"
+    - name: "Places"
+      Url: "/places"  
+  customMenus:
+    
+
 
   #home
   home:
-    bigline: "Wings to fly"
-    Tagline: "Stay healthy ,Keep learning, Get a job"
-    button: "Way to go"
+    bigline: "MYSURU TOURISM"
+    Tagline: "LOVE ALL , SERVE ALL "
+    button: "Journey Begins"
     buttonlink: "#these-things"
 
   #Here we do
   description:
-    heading: "We are here to do these things"
-    des: "provide you the best resources to boost up your skills. Healthcare advises to survive in this pandemic situation. Provide the list of all job search website."
+    heading: "WELCOME KARNATAKA"
+
+    des:    "provide you the best journey to keep your mind peaceful.The old city of Mysore was built around the main palace of the Wodeyar dynasty. Many mansions and smaller palaces were built for close relatives of the rulers in urban districts such as Nazarbad, and Lakshipuram. By contrast the agraharas (residential areas) consisted of mall houses, in these lived the palace cooks and clerks, who were mainly Brahmins."
 
   #these-things
   learn:
-    heading: "Boost up your skills"
-    des: "We are provide the courses details to Learn. We also provide some Youtube videos to learn."
-    img: "/assets/images/learn/techfest learn.svg"
+    heading: "Places you want to visit !!!"
+    des: "We are provide the best hotels and rooms for the travellers."
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6NleS65ACeuQ9AgdhS5_PF4ZRw9rTPz8zJw&usqp=CAU"
+    link: "/places"
+    name: "Place"
   healthcare:
-    heading: "Take an advice"
-    des: "We are give an advice to survive in this pandemic situation."
-    img: "/assets/images/healthcare/techfest healthcare.svg"
-    link: "/healthcare"
+    heading: "Take an Story"
+    des: "We are give an brief history of an temple, park, zoo."
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuOgiId4sFa9EjLpyQAWTKCMfTlqQgJe6w2Q&usqp=CAU"
+    link: "/places"
+    name: "Place"
   employment:
-    heading: "Get a job"
-    des: "We are provide the list of all websites and its details to search and apply for a job."
-    img: "/assets/images/employment/techfest employment.svg"
-    link: "/employment"
+    heading: "Enjoy a great ride"
+    des: "Good people can make a better ride (GOD)."
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStLSSmc29MFMFQj3swrXQ31ioUxPPP2_yjRQ&usqp=CAU"
+    link: "/places"
+    name: "Place"
 
   #Social
   social:
