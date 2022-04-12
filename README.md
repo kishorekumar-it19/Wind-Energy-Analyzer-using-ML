@@ -21,10 +21,10 @@ This software was originally written in Python 2.7 in a linux environment, and w
 
 The following are a few screenshots of the application:
 
-![instructionsAndResults](WindAnalysis-Master/WindAnalysis-master/SampleFiles/Screenshots/dailyAverages.png "Setup Page") 
+![instructionsAndResults](WindAnalysis-Master/WindAnalysis-master/SampleFiles/Screenshots/instructionsAndResults.png "Setup Page") 
 
-![dailyAverages](Screenshots/dailyAverages.png "Daily Averages") 
+![dailyAverages](WindAnalysis-Master/WindAnalysis-master/SampleFiles/Screenshots/dailyAverages.png  "Daily Averages") 
 
-![hourlyAverages](Screenshots/hourlyAverages.png "Hourly Averages")
+![hourlyAverages](WindAnalysis-Master/WindAnalysis-master/SampleFiles/Screenshots/hourlyAverages.png"Hourly Averages")
 
-![timeSeries](Screenshots/timeSeries.png "Time Series")
+![timeSeries](WindAnalysis-Master/WindAnalysis-master/SampleFiles/Screenshots/timeSeries.png "Time Series")
