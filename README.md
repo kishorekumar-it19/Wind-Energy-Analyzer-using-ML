@@ -21,7 +21,7 @@ This software was originally written in Python 2.7 in a linux environment, and w
 
 The following are a few screenshots of the application:
 
-![instructionsAndResults](Screenshots/instructionsAndResults.png "Setup Page") 
+![instructionsAndResults](WindAnalysis-Master/WindAnalysis-master/SampleFiles/Screenshots/dailyAverages.png "Setup Page") 
 
 ![dailyAverages](Screenshots/dailyAverages.png "Daily Averages") 
 
