@@ -25,6 +25,6 @@ The following are a few screenshots of the application:
 
 ![dailyAverages](WindAnalysis-Master/WindAnalysis-master/SampleFiles/Screenshots/dailyAverages.png  "Daily Averages") 
 
-![hourlyAverages](WindAnalysis-Master/WindAnalysis-master/SampleFiles/Screenshots/hourlyAverages.png"Hourly Averages") 
+![hourlyAverages](WindAnalysis-Master/WindAnalysis-master/SampleFiles/Screenshots/hourlyAverages.png  "Hourly Averages") 
 
 ![timeSeries](WindAnalysis-Master/WindAnalysis-master/SampleFiles/Screenshots/timeSeries.png "Time Series")
