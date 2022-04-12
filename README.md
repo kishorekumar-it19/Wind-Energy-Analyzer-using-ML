@@ -1,4 +1,2 @@
-# DSC-WOW---PROZONE
-loan 
+## Wind Energy Analyzer using ML
 
-save--
